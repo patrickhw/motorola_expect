@@ -15,5 +15,7 @@ expect timeout
 expect "#"
 send "reload\r"
 expect "(y/n):"
-send "y\r"
+sleep 3
+send "y"
+sleep 3
 exit -onexit puts "BYE!"
